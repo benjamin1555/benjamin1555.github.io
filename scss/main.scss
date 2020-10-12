@@ -1,5 +1,52 @@
-$primary-color: #481931;
+@import 'config';
+@import 'utilities';
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 body {
+  font-family: 'Dosis', sans-serif;
+  line-height: 1.6;
   background-color: $primary-color;
+  color: #FFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+// Header
+#header {
+  .header-content {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+      font-size: 4rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+  }
 }
