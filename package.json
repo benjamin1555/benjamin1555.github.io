@@ -1,0 +1,22 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamin1555/benjamin1555.github.io.git"
+  },
+  "author": "Benjamin Testé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjamin1555/benjamin1555.github.io/issues"
+  },
+  "homepage": "https://github.com/benjamin1555/benjamin1555.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
