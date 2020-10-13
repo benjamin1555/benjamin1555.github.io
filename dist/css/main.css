@@ -204,7 +204,7 @@ img {
   color: #FFF;
   border-bottom: 3px solid #FFBC00; }
   #header .header-content {
-    padding-top: 30%;
+    padding-top: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
