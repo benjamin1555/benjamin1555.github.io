@@ -193,9 +193,11 @@ img {
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
-    transition: border-color 0.5s; }
+    transition: all 0.5s; }
     #main-nav a:hover {
-      border-color: #FFBC00; }
+      border-color: #FFBC00;
+      opacity: 1;
+      color: #FFBC00; }
     #main-nav a.current {
       border-color: #FFBC00; }
 
@@ -304,7 +306,8 @@ img {
     #about .skills .skills-items {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 4rem; }
+      gap: 4rem;
+      padding: 0 5rem; }
       #about .skills .skills-items .skill-item i {
         font-size: 6rem;
         transition: all 0.3s;

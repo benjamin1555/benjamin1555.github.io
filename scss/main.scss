@@ -55,10 +55,12 @@ img {
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
     padding-bottom: 0.5rem;
-    transition: border-color 0.5s;
+    transition: all 0.5s;
 
     &:hover {
       border-color: $secondary-color;
+      opacity: 1;
+      color: $secondary-color;
     }
 
     &.current {
@@ -224,6 +226,7 @@ img {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 4rem;
+      padding: 0 5rem;
 
       .skill-item i {
         font-size: 6rem;
