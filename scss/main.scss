@@ -123,6 +123,16 @@ img {
     grid-area: bio;
     border-left: 3px solid $secondary-color;
     padding: 1rem;
+
+    .bio-text {
+      h4 {
+        padding: 2rem 0;
+      }
+
+      p {
+        margin-bottom: 2rem;
+      }
+    }
   }
 
   // Timeline

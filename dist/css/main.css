@@ -236,6 +236,10 @@ img {
     grid-area: bio;
     border-left: 3px solid #FFBC00;
     padding: 1rem; }
+    #about .bio .bio-text h4 {
+      padding: 2rem 0; }
+    #about .bio .bio-text p {
+      margin-bottom: 2rem; }
   #about .timeline {
     /* Show boxes */ }
     #about .timeline ul {
