@@ -1,0 +1,77 @@
+@media(max-width: 800px) {
+  #about {
+    .timeline {
+      li {
+        margin-left: 1px;
+      }
+    
+      li div {
+        width: calc(100vw - 100px);
+        margin-right: 40px;
+      }
+    
+      li:nth-child(even) div {
+        left: 40px;
+      }
+    
+      ul li:nth-child(even) div:before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent $primary-color transparent transparent;
+      }
+    }
+  }
+}
+
+// Smartphones
+@media(max-width: 600px) {
+  // Main Nav
+  #main-nav {
+    ul {
+      justify-content: center;
+      align-items: center;
+      padding-top: 1rem;
+    }
+
+    li {
+      padding-top: 1rem;
+    }
+  }
+
+  // Header
+  #header {
+    height: 25rem;
+
+    .header-content {
+      margin-top: 3rem;
+
+      .btn-light,
+      .bottom-line {
+        display: none;
+      }
+    }
+  }
+
+  // Stack Grid Columns
+  #about {
+    .about-info {
+      grid-template-areas: 
+        'bioimage'
+        'bio';
+    }
+  
+    .skills .skills-items {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+
+      .skill-item:last-child {
+        display: none;
+      }
+    }
+  }
+
+  .items {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
