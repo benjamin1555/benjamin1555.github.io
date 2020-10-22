@@ -328,7 +328,7 @@ img {
 
 .container.pdf .resume_pdf {
   width: 100%;
-  height: 100vh; }
+  height: 90vh; }
 
 @media (max-width: 800px) {
   #about .timeline li {
