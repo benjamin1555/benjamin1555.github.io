@@ -349,7 +349,7 @@ img {
     align-items: center;
     padding-top: 1rem; }
   #main-nav li {
-    padding-top: 1rem; }
+    padding: 1rem 0.5rem; }
   #header {
     height: 25rem; }
     #header .header-content {
