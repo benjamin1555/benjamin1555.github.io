@@ -20,6 +20,12 @@
     color: #333;
     background-color: $light-color;
   }
+
+  &-primary {
+    @extend %btn-shared;
+    color: #FFF;
+    background-color: $primary-color;
+  }
 }
 
 button[class^='btn-']:hover,

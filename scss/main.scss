@@ -131,7 +131,7 @@ img {
         padding: 2rem 0;
       }
 
-      p {
+      p:first-child {
         margin-bottom: 2rem;
       }
     }
@@ -212,7 +212,7 @@ img {
     ul li.show div {
       transform: none;
       visibility: visible;
-      opacity: 0.8;
+      opacity: 0.9;
     }
   }
   
@@ -245,6 +245,18 @@ img {
 #projects {
   background: #FFF;
   border-bottom: 3px solid $secondary-color;
+}
+
+// PDF
+.container.pdf {
+  .btn-light {
+    margin: 1rem 0;
+  }
+
+  .resume_pdf {
+    width: 100%;
+    height: 100vh;
+  }
 }
 
 // Mobile
