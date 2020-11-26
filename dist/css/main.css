@@ -362,8 +362,6 @@ img {
   #about .skills .skills-items {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem; }
-    #about .skills .skills-items .skill-item:last-child {
-      display: none; }
   .items {
     grid-template-columns: 1fr;
     gap: 1rem; } }

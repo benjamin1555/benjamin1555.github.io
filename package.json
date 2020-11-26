@@ -16,7 +16,8 @@
     "url": "https://github.com/benjamin1555/benjamin1555.github.io/issues"
   },
   "homepage": "https://github.com/benjamin1555/benjamin1555.github.io#readme",
-  "devDependencies": {
-    "node-sass": "^4.14.1"
+  "devDependencies": {},
+  "dependencies": {
+    "node-sass": "^5.0.0"
   }
 }
