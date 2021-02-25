@@ -246,6 +246,8 @@ img {
       padding: 2rem 0; }
     #about .bio .bio-text p:first-child {
       margin-bottom: 2rem; }
+    #about .bio .bio-text a.current-job-link {
+      color: #0B486B; }
   #about .timeline {
     /* Show boxes */ }
     #about .timeline ul {
